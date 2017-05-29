@@ -1,15 +1,16 @@
 body {
     overflow-x: hidden;
+  
  }
 
 /* Toggle Styles */
 
 #wrapper {
     padding-left: 0;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
 
 #wrapper.toggled {
@@ -25,10 +26,10 @@ body {
     margin-left: -250px;
     overflow-y: auto;
     background: #2e353b;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -47,8 +48,9 @@ body {
 }
 
 /* Sidebar Styles */
-.menu-title {
-
+.menu_title {
+font-size: 11px;
+padding-left: 5px;
 }
 .sidebar-nav {
     position: absolute;
@@ -57,30 +59,23 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-    font-weight: 700;
-    // text-transform: uppercase;
+    text-transform: uppercase;
     letter-spacing: 1px;
     color: #70767c;
-    font-size: 25px;
-    padding-left: 5px;
-
+    font-size: 15px;
 }
-.text-style {
-  font-size: 15px;
-  // font-family: "Helvetica Neue";
-}
-
 
 .sidebar-nav li {
-    text-indent: 20px;
-    line-height: 40px;
+    // line-height: 40px;
 }
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
     color: #999999;
-    padding: 15px 15px;
+    padding: 10px 15px;
+    // border-bottom: 1px #70767c solid;
+    font-weight: 700;
 
 }
 
@@ -101,7 +96,7 @@ body {
 
 .sidebar-nav > .sidebar-brand {
 
-    font-size: 11px;
+
     line-height: 60px;
 }
 
